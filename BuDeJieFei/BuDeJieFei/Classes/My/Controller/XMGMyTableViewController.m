@@ -25,12 +25,13 @@
 }
 -(void)setupNavBar{
     UIBarButtonItem *setting=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] highImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(oneClick)];
-    UIBarButtonItem *nightItem=[UIBarButtonItem itemWithImageSelected:[UIImage imageNamed:@"mine-moon-icon"] highImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(twoClick)];
+    UIBarButtonItem *nightItem=[UIBarButtonItem itemWithImageSelected:[UIImage imageNamed:@"mine-moon-icon"] highImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(twoClick:)];
     
     self.navigationItem.rightBarButtonItems=@[setting,nightItem];
     self.navigationItem.title=@"我的";
 }
--(void)twoClick{
+-(void)twoClick:(UIButton *)button{
+    button.selected=!button.selected;
     NSLog(@"%d",555);
 }
 -(void)oneClick{
