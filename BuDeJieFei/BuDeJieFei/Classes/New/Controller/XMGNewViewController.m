@@ -7,7 +7,7 @@
 //
 
 #import "XMGNewViewController.h"
-
+#import "UIBarButtonItem+Item.h"
 @interface XMGNewViewController ()
 
 @end
@@ -21,7 +21,10 @@
 }
 
 -(void)setupNavBar{
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] highImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(oneClick)];
     self.navigationItem.title=@"新帖";
 }
-
+-(void)oneClick{
+    NSLog(@"%d",222);
+}
 @end

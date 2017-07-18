@@ -21,6 +21,8 @@
 }
 
 -(void)setupNavBar{
+
+    
     self.navigationItem.title=@"精华";
 }
 
