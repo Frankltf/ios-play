@@ -7,7 +7,7 @@
 //
 
 #import "XMGFriendTrendViewController.h"
-
+#import "XMGLoginController.h"
 @interface XMGFriendTrendViewController ()
 
 @end
@@ -21,6 +21,10 @@
 }
 -(void)setupNavBar{
     self.navigationItem.title=@"关注";
+}
+- (IBAction)loginBtn:(UIButton *)sender {
+    XMGLoginController *login=[[XMGLoginController alloc]init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 @end

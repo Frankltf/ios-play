@@ -20,6 +20,17 @@
 		846BBB9B1F1DE2E400311C22 /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBB9A1F1DE2E400311C22 /* XMGNewViewController.m */; };
 		846BBB9E1F1DE2F500311C22 /* XMGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBB9D1F1DE2F500311C22 /* XMGPublishViewController.m */; };
 		846BBBB21F1DFE1D00311C22 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBB11F1DFE1D00311C22 /* UIBarButtonItem+Item.m */; };
+		846BBBB41F1EF37300311C22 /* XMGFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBB31F1EF37300311C22 /* XMGFriendTrendViewController.xib */; };
+		846BBBB71F1EFDFB00311C22 /* XMGLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBB61F1EFDFB00311C22 /* XMGLoginController.m */; };
+		846BBBB91F1F014C00311C22 /* XMGLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBB81F1F014C00311C22 /* XMGLoginController.xib */; };
+		846BBBBC1F1F0AF700311C22 /* XMGFastLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBBB1F1F0AF700311C22 /* XMGFastLogin.m */; };
+		846BBBBE1F1F0B0300311C22 /* XMGFastLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBBD1F1F0B0300311C22 /* XMGFastLogin.xib */; };
+		846BBBC11F1F12AA00311C22 /* XMGSubTagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBC01F1F12AA00311C22 /* XMGSubTagTableViewController.m */; };
+		846BBBC41F1F2A2300311C22 /* XMGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBC31F1F2A2300311C22 /* XMGConst.m */; };
+		846BBBD71F1F590700311C22 /* XMGItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBD61F1F590700311C22 /* XMGItem.m */; };
+		846BBBDA1F1F5CE600311C22 /* XMGSubTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBD91F1F5CE600311C22 /* XMGSubTagsTableViewCell.m */; };
+		846BBBDC1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBDB1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib */; };
+		CAFFB1EAFE0F27FF8C3A4717 /* libPods-BuDeJieFei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,26 @@
 		846BBB9D1F1DE2F500311C22 /* XMGPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPublishViewController.m; sourceTree = "<group>"; };
 		846BBBB01F1DFE1D00311C22 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		846BBBB11F1DFE1D00311C22 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		846BBBB31F1EF37300311C22 /* XMGFriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendViewController.xib; sourceTree = "<group>"; };
+		846BBBB51F1EFDFB00311C22 /* XMGLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginController.h; sourceTree = "<group>"; };
+		846BBBB61F1EFDFB00311C22 /* XMGLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginController.m; sourceTree = "<group>"; };
+		846BBBB81F1F014C00311C22 /* XMGLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginController.xib; sourceTree = "<group>"; };
+		846BBBBA1F1F0AF700311C22 /* XMGFastLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFastLogin.h; sourceTree = "<group>"; };
+		846BBBBB1F1F0AF700311C22 /* XMGFastLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFastLogin.m; sourceTree = "<group>"; };
+		846BBBBD1F1F0B0300311C22 /* XMGFastLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFastLogin.xib; sourceTree = "<group>"; };
+		846BBBBF1F1F12AA00311C22 /* XMGSubTagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSubTagTableViewController.h; sourceTree = "<group>"; };
+		846BBBC01F1F12AA00311C22 /* XMGSubTagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagTableViewController.m; sourceTree = "<group>"; };
+		846BBBC21F1F2A2300311C22 /* XMGConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGConst.h; sourceTree = "<group>"; };
+		846BBBC31F1F2A2300311C22 /* XMGConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGConst.m; sourceTree = "<group>"; };
+		846BBBC51F1F2F7600311C22 /* Budejie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Budejie.pch; sourceTree = "<group>"; };
+		846BBBD51F1F590700311C22 /* XMGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGItem.h; sourceTree = "<group>"; };
+		846BBBD61F1F590700311C22 /* XMGItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGItem.m; sourceTree = "<group>"; };
+		846BBBD81F1F5CE600311C22 /* XMGSubTagsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSubTagsTableViewCell.h; sourceTree = "<group>"; };
+		846BBBD91F1F5CE600311C22 /* XMGSubTagsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagsTableViewCell.m; sourceTree = "<group>"; };
+		846BBBDB1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSubTagsTableViewCell.xib; sourceTree = "<group>"; };
+		94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieFei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFFB1EAFE0F27FF8C3A4717 /* libPods-BuDeJieFei.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A526B746BFF760570373D72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */,
+				BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		846BBAD81F1DD9B800311C22 = {
 			isa = PBXGroup;
 			children = (
 				846BBAE31F1DD9B800311C22 /* BuDeJieFei */,
 				846BBAFD1F1DD9B800311C22 /* BuDeJieFeiUITests */,
 				846BBAE21F1DD9B800311C22 /* Products */,
+				0A526B746BFF760570373D72 /* Pods */,
+				9C7B2578F1F63E146AE460AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +230,10 @@
 			children = (
 				846BBB901F1DE29400311C22 /* XMGFriendTrendViewController.h */,
 				846BBB911F1DE29400311C22 /* XMGFriendTrendViewController.m */,
+				846BBBB31F1EF37300311C22 /* XMGFriendTrendViewController.xib */,
+				846BBBB51F1EFDFB00311C22 /* XMGLoginController.h */,
+				846BBBB61F1EFDFB00311C22 /* XMGLoginController.m */,
+				846BBBB81F1F014C00311C22 /* XMGLoginController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +248,9 @@
 		846BBB731F1DDE7700311C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				846BBBBA1F1F0AF700311C22 /* XMGFastLogin.h */,
+				846BBBBB1F1F0AF700311C22 /* XMGFastLogin.m */,
+				846BBBBD1F1F0B0300311C22 /* XMGFastLogin.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,6 +303,8 @@
 			children = (
 				846BBB991F1DE2E400311C22 /* XMGNewViewController.h */,
 				846BBB9A1F1DE2E400311C22 /* XMGNewViewController.m */,
+				846BBBBF1F1F12AA00311C22 /* XMGSubTagTableViewController.h */,
+				846BBBC01F1F12AA00311C22 /* XMGSubTagTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +312,8 @@
 		846BBB7A1F1DDE7700311C22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				846BBBD51F1F590700311C22 /* XMGItem.h */,
+				846BBBD61F1F590700311C22 /* XMGItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,6 +321,9 @@
 		846BBB7B1F1DDE7700311C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				846BBBD81F1F5CE600311C22 /* XMGSubTagsTableViewCell.h */,
+				846BBBD91F1F5CE600311C22 /* XMGSubTagsTableViewCell.m */,
+				846BBBDB1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +335,9 @@
 				846BBB7D1F1DDE7700311C22 /* AppDelegate.h */,
 				846BBB7E1F1DDE7700311C22 /* AppDelegate.m */,
 				846BBB7F1F1DDE7700311C22 /* main.m */,
+				846BBBC21F1F2A2300311C22 /* XMGConst.h */,
+				846BBBC31F1F2A2300311C22 /* XMGConst.m */,
+				846BBBC51F1F2F7600311C22 /* Budejie.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -357,6 +417,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		9C7B2578F1F63E146AE460AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,9 +432,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846BBB031F1DD9B800311C22 /* Build configuration list for PBXNativeTarget "BuDeJieFei" */;
 			buildPhases = (
+				2B3A412A37B3FB071C266951 /* [CP] Check Pods Manifest.lock */,
 				846BBADD1F1DD9B800311C22 /* Sources */,
 				846BBADE1F1DD9B800311C22 /* Frameworks */,
 				846BBADF1F1DD9B800311C22 /* Resources */,
+				5E8938F3B90E2B340F13A0EE /* [CP] Embed Pods Frameworks */,
+				93727299911E55F60F237E62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,9 +513,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846BBBBE1F1F0B0300311C22 /* XMGFastLogin.xib in Resources */,
+				846BBBB91F1F014C00311C22 /* XMGLoginController.xib in Resources */,
 				846BBAF41F1DD9B800311C22 /* LaunchScreen.storyboard in Resources */,
 				846BBAF11F1DD9B800311C22 /* Assets.xcassets in Resources */,
+				846BBBB41F1EF37300311C22 /* XMGFriendTrendViewController.xib in Resources */,
 				846BBAEF1F1DD9B800311C22 /* Main.storyboard in Resources */,
+				846BBBDC1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,18 +532,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B3A412A37B3FB071C266951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8938F3B90E2B340F13A0EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93727299911E55F60F237E62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846BBADD1F1DD9B800311C22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846BBBDA1F1F5CE600311C22 /* XMGSubTagsTableViewCell.m in Sources */,
+				846BBBB71F1EFDFB00311C22 /* XMGLoginController.m in Sources */,
 				846BBB8F1F1DE23200311C22 /* XMGTabController.m in Sources */,
+				846BBBC11F1F12AA00311C22 /* XMGSubTagTableViewController.m in Sources */,
 				846BBBB21F1DFE1D00311C22 /* UIBarButtonItem+Item.m in Sources */,
 				846BBB881F1DDFBA00311C22 /* XMGEssenceViewController.m in Sources */,
+				846BBBC41F1F2A2300311C22 /* XMGConst.m in Sources */,
+				846BBBBC1F1F0AF700311C22 /* XMGFastLogin.m in Sources */,
 				846BBB921F1DE29400311C22 /* XMGFriendTrendViewController.m in Sources */,
 				846BBB851F1DDE7700311C22 /* main.m in Sources */,
 				846BBB981F1DE2C800311C22 /* XMGMyTableViewController.m in Sources */,
 				846BBB9B1F1DE2E400311C22 /* XMGNewViewController.m in Sources */,
+				846BBBD71F1F590700311C22 /* XMGItem.m in Sources */,
 				846BBB841F1DDE7700311C22 /* AppDelegate.m in Sources */,
 				846BBB9E1F1DE2F500311C22 /* XMGPublishViewController.m in Sources */,
 			);
@@ -604,10 +733,13 @@
 		};
 		846BBB041F1DD9B800311C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X6Q9Y9GBJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = BuDeJieFei/Classes/Other/Budejie.pch;
 				INFOPLIST_FILE = BuDeJieFei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fei.ios-mvc";
@@ -617,10 +749,13 @@
 		};
 		846BBB051F1DD9B800311C22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X6Q9Y9GBJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = BuDeJieFei/Classes/Other/Budejie.pch;
 				INFOPLIST_FILE = BuDeJieFei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fei.ios-mvc";

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGSubTagsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OiW-Um-AgC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YaV-hW-0MA">
+                            <rect key="frame" x="15" y="10" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Z1M-Mk-Xm7"/>
+                                <constraint firstAttribute="width" constant="60" id="jqb-0C-kX8"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fl1-1z-0Kl">
+                            <rect key="frame" x="85" y="10" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBS-dE-nhS">
+                            <rect key="frame" x="85" y="49" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSc-yM-30y">
+                            <rect key="frame" x="329" y="25" width="31" height="30"/>
+                            <state key="normal" title="订阅"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PSc-yM-30y" secondAttribute="trailing" constant="15" id="Eqq-6f-J9O"/>
+                        <constraint firstItem="YaV-hW-0MA" firstAttribute="centerY" secondItem="OiW-Um-AgC" secondAttribute="centerY" id="G3c-bn-vzv"/>
+                        <constraint firstItem="Fl1-1z-0Kl" firstAttribute="leading" secondItem="YaV-hW-0MA" secondAttribute="trailing" constant="10" id="QPp-II-U8a"/>
+                        <constraint firstItem="PSc-yM-30y" firstAttribute="centerY" secondItem="OiW-Um-AgC" secondAttribute="centerY" id="TP2-nF-TLE"/>
+                        <constraint firstItem="dBS-dE-nhS" firstAttribute="leading" secondItem="Fl1-1z-0Kl" secondAttribute="leading" id="VCj-VK-VoT"/>
+                        <constraint firstItem="Fl1-1z-0Kl" firstAttribute="top" secondItem="YaV-hW-0MA" secondAttribute="top" id="Veu-fF-5VK"/>
+                        <constraint firstItem="YaV-hW-0MA" firstAttribute="leading" secondItem="OiW-Um-AgC" secondAttribute="leading" constant="15" id="aWF-4N-7NC"/>
+                        <constraint firstItem="dBS-dE-nhS" firstAttribute="bottom" secondItem="YaV-hW-0MA" secondAttribute="bottom" id="wo8-Gv-Wbb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OiW-Um-AgC" secondAttribute="bottom" id="8ID-qu-aBY"/>
+                <constraint firstItem="OiW-Um-AgC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PJe-d0-bFZ"/>
+                <constraint firstAttribute="trailing" secondItem="OiW-Um-AgC" secondAttribute="trailing" id="WmV-ye-6o5"/>
+                <constraint firstItem="OiW-Um-AgC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qyP-Xv-vra"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="52"/>
+        </view>
+    </objects>
+</document>

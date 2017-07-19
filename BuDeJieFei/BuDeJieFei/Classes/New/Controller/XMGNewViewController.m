@@ -8,6 +8,7 @@
 
 #import "XMGNewViewController.h"
 #import "UIBarButtonItem+Item.h"
+#import "XMGSubTagTableViewController.h"
 @interface XMGNewViewController ()
 
 @end
@@ -25,6 +26,7 @@
     self.navigationItem.title=@"新帖";
 }
 -(void)oneClick{
-    NSLog(@"%d",222);
+    XMGSubTagTableViewController *subtag=[[XMGSubTagTableViewController alloc]init];
+    [self.navigationController pushViewController:subtag animated:YES];
 }
 @end

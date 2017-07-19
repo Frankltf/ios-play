@@ -85,7 +85,6 @@
     [nav2.tabBarItem setTitleTextAttributes:attrsNor4 forState:UIControlStateNormal];
     
     UINavigationController *nav3=self.childViewControllers[2];
-    nav3.tabBarItem.title=@"发布";
     nav3.tabBarItem.image=[UIImage imageNamed:@"tabBar_publish_icon"];
     nav3.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_publish_click_icon"];
     
