@@ -8,6 +8,9 @@
 
 #import "XMGSubTagsTableViewCell.h"
 #import "XMGItem.h"
+#import "UIImageView+XMGDownload.h"
+
+
 @interface XMGSubTagsTableViewCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *headImage;
 @property (weak, nonatomic) IBOutlet UILabel *toplabel;
@@ -27,9 +30,9 @@
     _item=item;
     _toplabel.text=item.theme_name;
     _bottomlabel.text=item.sub_number;
-    
-    
-    
+    [self.headImage xmg_setheader:item.image_list];
+
+        
 }
 
 

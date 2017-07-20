@@ -11,6 +11,10 @@
 #import <HP_MJExtension/MJExtension.h>
 #import "XMGItem.h"
 #import "XMGSubTagsTableViewCell.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+
+
+
 static NSString * const ID=@"cell";
 @interface XMGSubTagTableViewController ()
 @property (nonatomic,strong)NSArray *subtags;
@@ -30,6 +34,7 @@ static NSString * const ID=@"cell";
 }
 # pragma mark  - 请求数据
 -(void)loadData{
+    [SVProgressHUD showWithStatus:@"正在加载中。。。"];
     AFHTTPSessionManager *mgr=[AFHTTPSessionManager manager];
     NSMutableDictionary *parameters=[NSMutableDictionary dictionary];
     parameters[@"a"] = @"tag_recommend";
@@ -38,8 +43,9 @@ static NSString * const ID=@"cell";
     [mgr GET:XMGCommonURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         _subtags=[XMGItem mj_objectArrayWithKeyValuesArray:responseObject];
         [self.tableView reloadData];
+        [SVProgressHUD dismiss];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+        [SVProgressHUD dismiss];
     }];
 }
 - (void)didReceiveMemoryWarning {
