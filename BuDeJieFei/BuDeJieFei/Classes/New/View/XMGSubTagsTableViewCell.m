@@ -8,7 +8,7 @@
 
 #import "XMGSubTagsTableViewCell.h"
 #import "XMGItem.h"
-#import "UIImageView+XMGDownload.h"
+
 
 
 @interface XMGSubTagsTableViewCell ()

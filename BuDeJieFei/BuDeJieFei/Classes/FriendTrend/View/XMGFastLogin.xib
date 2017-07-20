@@ -18,26 +18,26 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vpx-Xu-nXT">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieH-pb-xG0">
-                            <rect key="frame" x="100" y="25" width="70" height="70"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9W-M4-8vb">
+                            <rect key="frame" x="62.5" y="25" width="70" height="70"/>
+                            <state key="normal" image="login_QQ_icon"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvO-iz-1RX">
+                            <rect key="frame" x="152.5" y="25" width="70" height="70"/>
                             <state key="normal" image="login_sina_icon"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vZ-HR-j6K">
-                            <rect key="frame" x="185" y="25" width="70" height="70"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kuq-tI-TUK">
+                            <rect key="frame" x="242.5" y="25" width="70" height="70"/>
                             <state key="normal" image="login_tecent_icon"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iN-Ba-Xi0">
-                            <rect key="frame" x="15" y="25" width="70" height="70"/>
-                            <state key="normal" image="login_QQ_icon"/>
                         </button>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="ieH-pb-xG0" firstAttribute="leading" secondItem="9iN-Ba-Xi0" secondAttribute="trailing" constant="15" id="8jy-eS-Gki"/>
-                        <constraint firstItem="9iN-Ba-Xi0" firstAttribute="leading" secondItem="Vpx-Xu-nXT" secondAttribute="leading" constant="15" id="HHh-1A-5Qs"/>
-                        <constraint firstItem="9iN-Ba-Xi0" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="IeV-bR-kQx"/>
-                        <constraint firstItem="7vZ-HR-j6K" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="NvZ-8B-Q0R"/>
-                        <constraint firstItem="ieH-pb-xG0" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="ayT-zu-Yvz"/>
-                        <constraint firstItem="7vZ-HR-j6K" firstAttribute="leading" secondItem="ieH-pb-xG0" secondAttribute="trailing" constant="15" id="lPc-3r-VSa"/>
+                        <constraint firstItem="VvO-iz-1RX" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="JXZ-fR-h2v"/>
+                        <constraint firstItem="I9W-M4-8vb" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="JjZ-ZC-RL8"/>
+                        <constraint firstItem="Kuq-tI-TUK" firstAttribute="centerY" secondItem="Vpx-Xu-nXT" secondAttribute="centerY" id="MiF-8Y-usU"/>
+                        <constraint firstItem="VvO-iz-1RX" firstAttribute="centerX" secondItem="Vpx-Xu-nXT" secondAttribute="centerX" id="dCp-Z4-DtN"/>
+                        <constraint firstItem="Kuq-tI-TUK" firstAttribute="leading" secondItem="VvO-iz-1RX" secondAttribute="trailing" constant="20" id="meO-ys-nWF"/>
+                        <constraint firstItem="VvO-iz-1RX" firstAttribute="leading" secondItem="I9W-M4-8vb" secondAttribute="trailing" constant="20" id="uDg-MB-ATR"/>
                     </constraints>
                 </view>
             </subviews>
