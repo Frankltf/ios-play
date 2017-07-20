@@ -31,6 +31,7 @@
 		846BBBDA1F1F5CE600311C22 /* XMGSubTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBD91F1F5CE600311C22 /* XMGSubTagsTableViewCell.m */; };
 		846BBBDC1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBDB1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib */; };
 		846BBBDF1F20553500311C22 /* UIImageView+XMGDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBBDE1F20553500311C22 /* UIImageView+XMGDownload.m */; };
+		846BBBE11F205CCA00311C22 /* XMGMyTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBE01F205CCA00311C22 /* XMGMyTableViewController.storyboard */; };
 		CAFFB1EAFE0F27FF8C3A4717 /* libPods-BuDeJieFei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		846BBBDB1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSubTagsTableViewCell.xib; sourceTree = "<group>"; };
 		846BBBDD1F20553500311C22 /* UIImageView+XMGDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XMGDownload.h"; sourceTree = "<group>"; };
 		846BBBDE1F20553500311C22 /* UIImageView+XMGDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XMGDownload.m"; sourceTree = "<group>"; };
+		846BBBE01F205CCA00311C22 /* XMGMyTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XMGMyTableViewController.storyboard; sourceTree = "<group>"; };
 		94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieFei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.release.xcconfig"; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 			children = (
 				846BBB961F1DE2C800311C22 /* XMGMyTableViewController.h */,
 				846BBB971F1DE2C800311C22 /* XMGMyTableViewController.m */,
+				846BBBE01F205CCA00311C22 /* XMGMyTableViewController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				846BBBBE1F1F0B0300311C22 /* XMGFastLogin.xib in Resources */,
 				846BBBB91F1F014C00311C22 /* XMGLoginController.xib in Resources */,
 				846BBAF41F1DD9B800311C22 /* LaunchScreen.storyboard in Resources */,
+				846BBBE11F205CCA00311C22 /* XMGMyTableViewController.storyboard in Resources */,
 				846BBAF11F1DD9B800311C22 /* Assets.xcassets in Resources */,
 				846BBBB41F1EF37300311C22 /* XMGFriendTrendViewController.xib in Resources */,
 				846BBAEF1F1DD9B800311C22 /* Main.storyboard in Resources */,

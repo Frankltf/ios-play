@@ -31,7 +31,6 @@
                             <state key="normal" image="login_QQ_icon"/>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="ieH-pb-xG0" firstAttribute="leading" secondItem="9iN-Ba-Xi0" secondAttribute="trailing" constant="15" id="8jy-eS-Gki"/>
                         <constraint firstItem="9iN-Ba-Xi0" firstAttribute="leading" secondItem="Vpx-Xu-nXT" secondAttribute="leading" constant="15" id="HHh-1A-5Qs"/>
@@ -42,7 +41,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Vpx-Xu-nXT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="28j-rX-3XQ"/>
                 <constraint firstItem="Vpx-Xu-nXT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O7q-9Q-94I"/>

@@ -50,7 +50,8 @@
     
     
     //我的
-    XMGMyTableViewController *my=[[XMGMyTableViewController alloc]init];
+    UIStoryboard *storyboard=[UIStoryboard storyboardWithName:NSStringFromClass([XMGMyTableViewController class]) bundle:nil];
+    XMGMyTableViewController *my=[storyboard instantiateInitialViewController];
     UINavigationController *nav5=[[UINavigationController alloc]initWithRootViewController:my];
     [self addChildViewController:nav5];
     
