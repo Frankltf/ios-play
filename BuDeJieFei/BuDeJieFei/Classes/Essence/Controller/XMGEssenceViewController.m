@@ -16,6 +16,7 @@
 @interface XMGEssenceViewController () <UIScrollViewDelegate>
 @property(nonatomic,weak)UIView *titleView;
 @property (nonatomic,weak)UIScrollView *scrollveiw;
+@property(nonatomic,weak)UIButton *preBtn;
 @end
 
 @implementation XMGEssenceViewController
@@ -52,12 +53,10 @@
     NSUInteger count=self.childViewControllers.count;
     CGFloat scrollviewW=scrollview.frame.size.width * count;
     scrollview.contentSize=CGSizeMake(scrollviewW, 0);
-    
-    
 }
 -(void)setupTitle{
     UIView *titleView=[[UIView alloc]init];
-    titleView.backgroundColor=[UIColor blueColor];
+    titleView.backgroundColor=[[UIColor whiteColor]colorWithAlphaComponent:0.4];
     CGFloat navY=64;
     CGFloat navH=35;
     CGFloat navw=self.view.frame.size.width;
@@ -78,11 +77,16 @@
         [btn addTarget:self action:@selector(navBtn:) forControlEvents:UIControlEventTouchUpInside];
         [self.titleView addSubview:btn];
         btn.frame=CGRectMake(i*titleButtonW, 0, titleButtonW, titleButtonH);
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [btn setTitle:arrTitle[i] forState:UIControlStateNormal];
     }
+    [self navBtn:self.titleView.subviews[0]];
 }
 -(void)navBtn:(UIButton *)btn{
     NSUInteger index=btn.tag;
+    [self.preBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    self.preBtn=btn;
     [UIView animateWithDuration:0.25 animations:^{
         CGFloat floatX=self.scrollveiw.frame.size.width * index;
         self.scrollveiw.contentOffset=CGPointMake(floatX, self.scrollveiw.contentOffset.y);
