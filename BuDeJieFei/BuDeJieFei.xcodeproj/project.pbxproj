@@ -50,6 +50,16 @@
 		846BBC331F21B0F200311C22 /* XMGVoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC321F21B0F200311C22 /* XMGVoiceTableViewController.m */; };
 		846BBC361F21B10100311C22 /* XMGPictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */; };
 		846BBC391F21B10900311C22 /* XMGWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC381F21B10900311C22 /* XMGWordTableViewController.m */; };
+		846BBC3C1F21D84400311C22 /* XMGTopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC3B1F21D84400311C22 /* XMGTopTableViewController.m */; };
+		846BBC3F1F21DF3400311C22 /* XMGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC3E1F21DF3400311C22 /* XMGTopicCell.m */; };
+		846BBC411F21DF4300311C22 /* XMGTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBC401F21DF4300311C22 /* XMGTopicCell.xib */; };
+		846BBC441F21E11000311C22 /* XMGTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC431F21E11000311C22 /* XMGTopicVedioView.m */; };
+		846BBC461F21E11D00311C22 /* XMGTopicVedioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBC451F21E11D00311C22 /* XMGTopicVedioView.xib */; };
+		846BBC491F21E1AE00311C22 /* XMGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC481F21E1AE00311C22 /* XMGTopicVoiceView.m */; };
+		846BBC4B1F21E1BB00311C22 /* XMGTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBC4A1F21E1BB00311C22 /* XMGTopicVoiceView.xib */; };
+		846BBC4E1F21E23A00311C22 /* XMGTopicPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC4D1F21E23A00311C22 /* XMGTopicPicture.m */; };
+		846BBC501F21E24A00311C22 /* XMGTopicPicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BBC4F1F21E24A00311C22 /* XMGTopicPicture.xib */; };
+		846BBC531F21E35700311C22 /* XMGTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC521F21E35700311C22 /* XMGTop.m */; };
 		CAFFB1EAFE0F27FF8C3A4717 /* libPods-BuDeJieFei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +146,22 @@
 		846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPictureTableViewController.m; sourceTree = "<group>"; };
 		846BBC371F21B10900311C22 /* XMGWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGWordTableViewController.h; sourceTree = "<group>"; };
 		846BBC381F21B10900311C22 /* XMGWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWordTableViewController.m; sourceTree = "<group>"; };
+		846BBC3A1F21D84400311C22 /* XMGTopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopTableViewController.h; sourceTree = "<group>"; };
+		846BBC3B1F21D84400311C22 /* XMGTopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopTableViewController.m; sourceTree = "<group>"; };
+		846BBC3D1F21DF3400311C22 /* XMGTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicCell.h; sourceTree = "<group>"; };
+		846BBC3E1F21DF3400311C22 /* XMGTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicCell.m; sourceTree = "<group>"; };
+		846BBC401F21DF4300311C22 /* XMGTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicCell.xib; sourceTree = "<group>"; };
+		846BBC421F21E11000311C22 /* XMGTopicVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVedioView.h; sourceTree = "<group>"; };
+		846BBC431F21E11000311C22 /* XMGTopicVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVedioView.m; sourceTree = "<group>"; };
+		846BBC451F21E11D00311C22 /* XMGTopicVedioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVedioView.xib; sourceTree = "<group>"; };
+		846BBC471F21E1AE00311C22 /* XMGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVoiceView.h; sourceTree = "<group>"; };
+		846BBC481F21E1AE00311C22 /* XMGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVoiceView.m; sourceTree = "<group>"; };
+		846BBC4A1F21E1BB00311C22 /* XMGTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVoiceView.xib; sourceTree = "<group>"; };
+		846BBC4C1F21E23A00311C22 /* XMGTopicPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicPicture.h; sourceTree = "<group>"; };
+		846BBC4D1F21E23A00311C22 /* XMGTopicPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicPicture.m; sourceTree = "<group>"; };
+		846BBC4F1F21E24A00311C22 /* XMGTopicPicture.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicPicture.xib; sourceTree = "<group>"; };
+		846BBC511F21E35700311C22 /* XMGTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTop.h; sourceTree = "<group>"; };
+		846BBC521F21E35700311C22 /* XMGTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTop.m; sourceTree = "<group>"; };
 		94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieFei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.release.xcconfig"; sourceTree = "<group>"; };
@@ -257,6 +283,8 @@
 		846BBB6E1F1DDE7700311C22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				846BBC511F21E35700311C22 /* XMGTop.h */,
+				846BBC521F21E35700311C22 /* XMGTop.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +292,18 @@
 		846BBB6F1F1DDE7700311C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				846BBC3D1F21DF3400311C22 /* XMGTopicCell.h */,
+				846BBC3E1F21DF3400311C22 /* XMGTopicCell.m */,
+				846BBC401F21DF4300311C22 /* XMGTopicCell.xib */,
+				846BBC421F21E11000311C22 /* XMGTopicVedioView.h */,
+				846BBC431F21E11000311C22 /* XMGTopicVedioView.m */,
+				846BBC451F21E11D00311C22 /* XMGTopicVedioView.xib */,
+				846BBC471F21E1AE00311C22 /* XMGTopicVoiceView.h */,
+				846BBC481F21E1AE00311C22 /* XMGTopicVoiceView.m */,
+				846BBC4A1F21E1BB00311C22 /* XMGTopicVoiceView.xib */,
+				846BBC4C1F21E23A00311C22 /* XMGTopicPicture.h */,
+				846BBC4D1F21E23A00311C22 /* XMGTopicPicture.m */,
+				846BBC4F1F21E24A00311C22 /* XMGTopicPicture.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -542,6 +582,8 @@
 				846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */,
 				846BBC371F21B10900311C22 /* XMGWordTableViewController.h */,
 				846BBC381F21B10900311C22 /* XMGWordTableViewController.m */,
+				846BBC3A1F21D84400311C22 /* XMGTopTableViewController.h */,
+				846BBC3B1F21D84400311C22 /* XMGTopTableViewController.m */,
 			);
 			path = Topic;
 			sourceTree = "<group>";
@@ -645,11 +687,14 @@
 				846BBC031F20B5AC00311C22 /* LaunchImage.png in Resources */,
 				846BBBBE1F1F0B0300311C22 /* XMGFastLogin.xib in Resources */,
 				846BBBB91F1F014C00311C22 /* XMGLoginController.xib in Resources */,
+				846BBC501F21E24A00311C22 /* XMGTopicPicture.xib in Resources */,
 				846BBBFF1F20B5AC00311C22 /* LaunchImage-700-568h@2x.png in Resources */,
 				846BBBF51F20B04B00311C22 /* XMGAdViewController.xib in Resources */,
 				846BBC001F20B5AC00311C22 /* LaunchImage-700@2x.png in Resources */,
+				846BBC4B1F21E1BB00311C22 /* XMGTopicVoiceView.xib in Resources */,
 				846BBC011F20B5AC00311C22 /* LaunchImage-800-667h@2x.png in Resources */,
 				846BBAF41F1DD9B800311C22 /* LaunchScreen.storyboard in Resources */,
+				846BBC411F21DF4300311C22 /* XMGTopicCell.xib in Resources */,
 				846BBBE11F205CCA00311C22 /* XMGMyTableViewController.storyboard in Resources */,
 				846BBAF11F1DD9B800311C22 /* Assets.xcassets in Resources */,
 				846BBBE61F20978600311C22 /* XMGSquareCell.xib in Resources */,
@@ -657,6 +702,7 @@
 				846BBC041F20B5AC00311C22 /* LaunchImage@2x.png in Resources */,
 				846BBBB41F1EF37300311C22 /* XMGFriendTrendViewController.xib in Resources */,
 				846BBAEF1F1DD9B800311C22 /* Main.storyboard in Resources */,
+				846BBC461F21E11D00311C22 /* XMGTopicVedioView.xib in Resources */,
 				846BBC021F20B5AC00311C22 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				846BBBDC1F1F5D1300311C22 /* XMGSubTagsTableViewCell.xib in Resources */,
 			);
@@ -725,7 +771,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				846BBC391F21B10900311C22 /* XMGWordTableViewController.m in Sources */,
+				846BBC531F21E35700311C22 /* XMGTop.m in Sources */,
 				846BBBDA1F1F5CE600311C22 /* XMGSubTagsTableViewCell.m in Sources */,
+				846BBC3C1F21D84400311C22 /* XMGTopTableViewController.m in Sources */,
 				846BBBB71F1EFDFB00311C22 /* XMGLoginController.m in Sources */,
 				846BBB8F1F1DE23200311C22 /* XMGTabController.m in Sources */,
 				846BBBC11F1F12AA00311C22 /* XMGSubTagTableViewController.m in Sources */,
@@ -738,17 +786,21 @@
 				846BBB921F1DE29400311C22 /* XMGFriendTrendViewController.m in Sources */,
 				846BBB851F1DDE7700311C22 /* main.m in Sources */,
 				846BBB981F1DE2C800311C22 /* XMGMyTableViewController.m in Sources */,
+				846BBC491F21E1AE00311C22 /* XMGTopicVoiceView.m in Sources */,
 				846BBB9B1F1DE2E400311C22 /* XMGNewViewController.m in Sources */,
 				846BBBE41F20977800311C22 /* XMGSquareCell.m in Sources */,
 				846BBC071F20B79800311C22 /* XMGAdItem.m in Sources */,
 				846BBBD71F1F590700311C22 /* XMGItem.m in Sources */,
+				846BBC3F1F21DF3400311C22 /* XMGTopicCell.m in Sources */,
 				846BBC361F21B10100311C22 /* XMGPictureTableViewController.m in Sources */,
 				846BBC331F21B0F200311C22 /* XMGVoiceTableViewController.m in Sources */,
+				846BBC4E1F21E23A00311C22 /* XMGTopicPicture.m in Sources */,
 				846BBB841F1DDE7700311C22 /* AppDelegate.m in Sources */,
 				846BBB9E1F1DE2F500311C22 /* XMGPublishViewController.m in Sources */,
 				846BBBF41F20B04B00311C22 /* XMGAdViewController.m in Sources */,
 				846BBBDF1F20553500311C22 /* UIImageView+XMGDownload.m in Sources */,
 				846BBC2D1F21B0D800311C22 /* XMGAllTableViewController.m in Sources */,
+				846BBC441F21E11000311C22 /* XMGTopicVedioView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

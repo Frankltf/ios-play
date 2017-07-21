@@ -1,5 +1,5 @@
 //
-//  XMGWordTableViewController.h
+//  XMGTopicVedioView.h
 //  BuDeJieFei
 //
 //  Created by admin on 2017/7/21.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XMGTopTableViewController.h"
-@interface XMGWordTableViewController : XMGTopTableViewController
+
+@interface XMGTopicVedioView : UIView
 
 @end
