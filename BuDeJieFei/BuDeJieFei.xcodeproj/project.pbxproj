@@ -45,6 +45,11 @@
 		846BBC031F20B5AC00311C22 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBFC1F20B5AC00311C22 /* LaunchImage.png */; };
 		846BBC041F20B5AC00311C22 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846BBBFD1F20B5AC00311C22 /* LaunchImage@2x.png */; };
 		846BBC071F20B79800311C22 /* XMGAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC061F20B79800311C22 /* XMGAdItem.m */; };
+		846BBC2D1F21B0D800311C22 /* XMGAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC2C1F21B0D800311C22 /* XMGAllTableViewController.m */; };
+		846BBC301F21B0E500311C22 /* XMGVideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC2F1F21B0E500311C22 /* XMGVideoTableViewController.m */; };
+		846BBC331F21B0F200311C22 /* XMGVoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC321F21B0F200311C22 /* XMGVoiceTableViewController.m */; };
+		846BBC361F21B10100311C22 /* XMGPictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */; };
+		846BBC391F21B10900311C22 /* XMGWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BBC381F21B10900311C22 /* XMGWordTableViewController.m */; };
 		CAFFB1EAFE0F27FF8C3A4717 /* libPods-BuDeJieFei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +126,16 @@
 		846BBBFD1F20B5AC00311C22 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		846BBC051F20B79800311C22 /* XMGAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAdItem.h; sourceTree = "<group>"; };
 		846BBC061F20B79800311C22 /* XMGAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAdItem.m; sourceTree = "<group>"; };
+		846BBC2B1F21B0D800311C22 /* XMGAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAllTableViewController.h; sourceTree = "<group>"; };
+		846BBC2C1F21B0D800311C22 /* XMGAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAllTableViewController.m; sourceTree = "<group>"; };
+		846BBC2E1F21B0E500311C22 /* XMGVideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVideoTableViewController.h; sourceTree = "<group>"; };
+		846BBC2F1F21B0E500311C22 /* XMGVideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVideoTableViewController.m; sourceTree = "<group>"; };
+		846BBC311F21B0F200311C22 /* XMGVoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVoiceTableViewController.h; sourceTree = "<group>"; };
+		846BBC321F21B0F200311C22 /* XMGVoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVoiceTableViewController.m; sourceTree = "<group>"; };
+		846BBC341F21B10100311C22 /* XMGPictureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPictureTableViewController.h; sourceTree = "<group>"; };
+		846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPictureTableViewController.m; sourceTree = "<group>"; };
+		846BBC371F21B10900311C22 /* XMGWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGWordTableViewController.h; sourceTree = "<group>"; };
+		846BBC381F21B10900311C22 /* XMGWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWordTableViewController.m; sourceTree = "<group>"; };
 		94E5E5E76B306F373BF15C49 /* Pods-BuDeJieFei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C392292C59EE184C79563F /* libPods-BuDeJieFei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieFei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDD5AAD73F07B18F213B71 /* Pods-BuDeJieFei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieFei.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJieFei/Pods-BuDeJieFei.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +247,7 @@
 		846BBB6D1F1DDE7700311C22 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				846BBC181F21ACE500311C22 /* Topic */,
 				846BBB861F1DDFBA00311C22 /* XMGEssenceViewController.h */,
 				846BBB871F1DDFBA00311C22 /* XMGEssenceViewController.m */,
 			);
@@ -513,6 +529,23 @@
 			path = "../../../../Users/admin/Documents/~~~~所有代码笔记资源在这里~~~~~/07-OC项目(百思不得姐)/0329/代码/01-BuDeJie-刷新框架/BuDeJie/启动图片";
 			sourceTree = "<group>";
 		};
+		846BBC181F21ACE500311C22 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				846BBC2B1F21B0D800311C22 /* XMGAllTableViewController.h */,
+				846BBC2C1F21B0D800311C22 /* XMGAllTableViewController.m */,
+				846BBC2E1F21B0E500311C22 /* XMGVideoTableViewController.h */,
+				846BBC2F1F21B0E500311C22 /* XMGVideoTableViewController.m */,
+				846BBC311F21B0F200311C22 /* XMGVoiceTableViewController.h */,
+				846BBC321F21B0F200311C22 /* XMGVoiceTableViewController.m */,
+				846BBC341F21B10100311C22 /* XMGPictureTableViewController.h */,
+				846BBC351F21B10100311C22 /* XMGPictureTableViewController.m */,
+				846BBC371F21B10900311C22 /* XMGWordTableViewController.h */,
+				846BBC381F21B10900311C22 /* XMGWordTableViewController.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
 		9C7B2578F1F63E146AE460AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -691,6 +724,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846BBC391F21B10900311C22 /* XMGWordTableViewController.m in Sources */,
 				846BBBDA1F1F5CE600311C22 /* XMGSubTagsTableViewCell.m in Sources */,
 				846BBBB71F1EFDFB00311C22 /* XMGLoginController.m in Sources */,
 				846BBB8F1F1DE23200311C22 /* XMGTabController.m in Sources */,
@@ -699,6 +733,7 @@
 				846BBBEC1F209AAD00311C22 /* XMGCollectionItem.m in Sources */,
 				846BBB881F1DDFBA00311C22 /* XMGEssenceViewController.m in Sources */,
 				846BBBC41F1F2A2300311C22 /* XMGConst.m in Sources */,
+				846BBC301F21B0E500311C22 /* XMGVideoTableViewController.m in Sources */,
 				846BBBBC1F1F0AF700311C22 /* XMGFastLogin.m in Sources */,
 				846BBB921F1DE29400311C22 /* XMGFriendTrendViewController.m in Sources */,
 				846BBB851F1DDE7700311C22 /* main.m in Sources */,
@@ -707,10 +742,13 @@
 				846BBBE41F20977800311C22 /* XMGSquareCell.m in Sources */,
 				846BBC071F20B79800311C22 /* XMGAdItem.m in Sources */,
 				846BBBD71F1F590700311C22 /* XMGItem.m in Sources */,
+				846BBC361F21B10100311C22 /* XMGPictureTableViewController.m in Sources */,
+				846BBC331F21B0F200311C22 /* XMGVoiceTableViewController.m in Sources */,
 				846BBB841F1DDE7700311C22 /* AppDelegate.m in Sources */,
 				846BBB9E1F1DE2F500311C22 /* XMGPublishViewController.m in Sources */,
 				846BBBF41F20B04B00311C22 /* XMGAdViewController.m in Sources */,
 				846BBBDF1F20553500311C22 /* UIImageView+XMGDownload.m in Sources */,
+				846BBC2D1F21B0D800311C22 /* XMGAllTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
